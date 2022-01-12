@@ -9,3 +9,8 @@ function myfunction() {
     sentence += "a lot from this";
     document.getElementById("BigB").innerHTML= sentence; // everytime element BigB is called uppon it will display i am learning allot from this
 }
+
+function lil() {
+    var x = document.getElementById("QW");   // Get the element with id="QW"
+    x.style.color = "red";                     // Change the color of the element to red
+}
