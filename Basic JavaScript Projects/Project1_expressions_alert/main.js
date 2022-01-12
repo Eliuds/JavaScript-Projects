@@ -13,3 +13,4 @@ var d="hi", e="hola", f="asd";// assigning values to variables
 var e= e.fontcolor("red");// making the var e red
 document.write(e);//writing the var e
 document.write(15+2);// im adding 15 and 2
+document.write(a + b)// adding the two var together
