@@ -39,5 +39,7 @@ document.write(5>2 && 10>2);// display true
 document.write(2>5 && 5>2);// this should display false
 
 function not() {
-    document.getElementById("Not").innerHTML = !(2>3);
+    document.getElementById("Not").innerHTML = !(2>3);// displays true when you click on it cause 2 is not greater then 3
 }
+
+document.write(2>1|| 13>2);// should display true cause one is true
