@@ -12,7 +12,7 @@ function slice_Method() {// this pinpoints a certain word in a sentence and pick
     var Section = Sentence.slice(27,33);
     document.getElementById("slice").innerHTML = Section;
 }
-function string_Method() {
+function string_Method() { //
     var X=182;
     document.getElementById("String").innerHTML = X.toString();
 }
