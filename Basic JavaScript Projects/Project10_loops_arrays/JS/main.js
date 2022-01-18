@@ -19,7 +19,7 @@ function for_Loop() {
 }
 
 function array_Function(){
-    var array_Function = [];
+    var words = [];
     words[0] = "greeting";
     words[1] = "Goodbye";
     words[2] = "command";
@@ -48,7 +48,8 @@ let game = {
     Platform: "PC, PS, Xbox",
     Name: "Overwatch",
     description : function() {
-       return "The game " + this.Name + " is a " + this.Genre + " that is available for " +this.Platform + ".";
+       return "The game " + this.Name + " is a " + this.Genre + " that is available for " + this.Platform + ".";
     }
+}
 document.getElementById("Game_Ob").innerHTML = game.description();
-}// here i tried to make an object with let and it didnt work for some reason as well.
+// here i tried to make an object with let and it didnt work for some reason as well. It says unexpected identifier in the source tab of dev tools but i dont know what that means.
