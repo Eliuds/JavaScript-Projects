@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Basic HTML</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/">
+    </head>
+    <body onclick="myFunction()" >
+        <input type="text" value="An input field">
+<button>A Button</button>
+<p id="demo"></p>
+<p>Click anywhere in the document to display the active element:</p>
+
+        <header>
+            <h1>The basic HTML Template</h1>
+            <p>Introduction to basic HTML syntax.</p>
+        </header>
+        <script>
+            function myFunction() {
+              const element = document.activeElement.tagName;
+              document.getElementById("demo").innerHTML = element;
+            }
+            </script>
+    </body>
+</html>

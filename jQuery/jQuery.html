@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Basic HTML</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/">
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script> <!-- calling jquery from the browser-->
+    </head>
+    <body>
+       <script>
+           $(document).ready(function() {
+            $("html").append( //adding  whats written below to the html
+                "<body>\
+                    <div id='container'>\
+                        <div id='inner'>\
+                            <h1>Basic Jquery</h1>\
+                            <p id='1'>Paragraph 1</p>\
+                            <p id='2'>Paragraph 2</p>\
+                            <p id='3'>Paragraph 3</p>\
+                        </div>\
+                    </div>\
+                    </body>"
+            );
+            $("#2").css({"color": "red"});// changing the color on p2 to red
+            $("#3").click(function () {// when you click p3 it hides h1 which here is basic jquery
+                $('h1').hide();
+            });
+           });
+       </script>
+        
+    </body>
+</html>
