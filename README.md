@@ -1,2 +1,3 @@
 # JavaScript-Projects
-This is gonna be where i place all the projects i do in the javascript course.
+This is gonna be where i place all the projects i do in the javascript course.\
+in this course i made allot of projects like a pizza project, a react prok\ject, a calculator, went back and worked a lil bit on the one page website adding javascript to it and a todo app. i also learned allot of new things relating to java css and html motly java tho. i learned about jqueurys, ajax, ondblclick, xml and allot of other things.
